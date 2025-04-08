@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('./CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: navy;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./bg-basketball.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scoreboard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.score-el {
+    background-color: #080001;
+    font-size: 90px;
+    color: #F94F6D;
+    font-family: 'CursedTimer', sans-serif;
+    padding: 20px;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.button-el {
+    border-radius: 5px;
+    font-family: 'cursedTimer', sans-serif;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newGame-button {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    color: navy;
+    border: 2px solid navy;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px grey;
+    background: white;
+}
+
+.winner {
+    background-color: yellow;
+    color: navy;
+    padding: 5px;
+}
